@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset=UTF-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
+    <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css>
+    <link rel=stylesheet href=cadastro.css>
+    <link rel=jjrr>
+    <title>Login</title>
+</head>
+
+<body>
+    <section>
+        <div class=form-box>
+            <div class=form-value>
+                <form action>
+                    <h3>Cadastrar</h3>
+                    <div class=inputbox>
+                        <i class="bi bi-person-vcard"></i>
+                        <input id=name type=name required>
+                        <label for>Nome</label>
+                    </div>
+                    <div class=inputbox>
+                        <i class="bi bi-phone"></i>
+                        <input id=fone type=text required>
+                        <label for>Telefone</label>
+                    </div>
+                
+                    <div class=inputbox>
+                        <i class="bi bi-envelope-at"></i>
+                        <input id=email type=email required>
+                        <label for>Email</label>
+                    </div>
+                    <div class=inputbox>
+                        <i class="bi bi-key"></i>
+                        <input id=Senha type=password required>
+
+                        <label for>Senha</label>
+                    </div>
+
+
+                    <div class=inputbox>
+                        <i class="bi bi-key"></i>
+                        <input id=Senha type=password required>
+
+                        <label for>Confirmar senha</label>
+                    </div>
+                    <button type=submit onclick="logar();return false" id=btnlogar>Cadastrar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

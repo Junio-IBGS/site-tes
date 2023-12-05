@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset=UTF-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
+    <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css>
+    <link rel=stylesheet href=longin.css>
+    <link rel=jjrr>
+    <title>Login</title>
+</head>
+
+<body>
+    <section>
+        <div class=form-box>
+            <div class=form-value>
+                <form action>
+                    <h2>Login</h2>
+                    <div class=inputbox>
+                        <i class="bi bi-person-vcard"></i>
+                        <input id=name type=name required>
+                        <label for>Nome</label>
+                    </div>
+                    <div class=inputbox>
+                        <i class="bi bi-key"></i>
+                        <input id=Senha type=password required>
+                        
+                        <label for>Senha</label>
+                    </div>
+                    <div class=forget>
+                        <label for><input type=checkbox>Lembro <a style="padding-left: 5px;" href=#> Esqueci Senha
+                            </a></label>
+                    </div>
+                    <button type=submit onclick="logar();return false" id=btnlogar>Login</button>
+                    <div class=register>
+                        <p>Não Tenho conta.<a style="padding-left: 15px;" href="cadastro.html">Registrar</a></p>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script>function logar() { var b = document.getElementById("name").value; var a = document.getElementById("Senha").value; if (b == "admin" && a == "1234") { location.href = "pag1.html" } else { alert("Usuário ou Senha incorretos") } };</script>
+</body>
+
+</html>

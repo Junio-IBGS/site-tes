@@ -1,0 +1,145 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@700&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  body {
+      height: 100vh;
+  }
+
+  nav.menu-lateral {
+      width: 254px;
+      background-color: #212529;
+      padding: 40px 0 40px 1%;
+      position: fixed;
+      top: 0;
+      left: 0;
+  }
+
+  nav.nav2 {
+      position: absolute;
+      width: 22px;
+      height: 900px;
+      left: 251px;
+      top: 0px;
+      background: #4169E1;
+      position: fixed;
+
+  }
+
+  .linha {
+      position: absolute;
+      width: 254px;
+      height: 0px;
+      left: 4px;
+      top: 579px;
+      border: 1px solid #525558;
+  }
+
+  .btn-expandir {
+      width: 100%;
+      padding-left: 10px;
+      margin-bottom: 40px;
+
+
+  }
+
+  .nome-usu {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 23px;
+      color: #FFFFFF;
+      padding-left: 10px;
+
+  }
+
+  .btn-expandir>i {
+      color: #fff;
+      font-size: 24px;
+      cursor: pointer;
+      font-size: 50px;
+      margin-left: 2px;
+  }
+
+  ul {
+      height: 100%;
+      list-style-type: none;
+
+  }
+
+  ul li.itemmenu {
+      transition: 1s;
+  }
+
+  ul li.itemmenu:hover {
+      background: #4169E1 80%;
+      border-radius: 5px;
+      margin-left: 15px;
+      padding-right: 10px;
+    
+  }
+
+  ul li.itemmenu a {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 23px;
+      color: #FFFFFF;
+      display: flex;
+      margin-bottom: 30px;
+      line-height: 40px;
+      text-decoration: none;
+  }
+
+  ul li.itemmenu a .txt-link {
+      margin-left: 40px;
+
+  }
+
+  ul li.itemmenu a .icon>i {
+      font-size: 30px;
+
+  }
+
+  ul li.itemmenu2 a {
+
+      width: 58px;
+      height: 86px;
+      left: 66px;
+      top: 900px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 23px;
+      color: #FFFFFF;
+      display: flex;
+      margin-top: 70px;
+      margin-bottom: 10px;
+      line-height: 40px;
+      list-style-type: none;
+      text-decoration: none;
+
+  }
+
+  ul li.itemmenu2 a .icon>i {
+      font-size: 30px;
+
+  }
+
+  ul li.itemmenu2 a .txt-link {
+      margin-left: 40px;
+
+  }
+
+  ul li.itemmenu2 a .icon>i {
+      font-size: 30px;
+
+  }
